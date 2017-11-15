@@ -1,0 +1,9 @@
+.\debug\DebugInFlash\keyboard.o: driver\KeyBoard\KeyBoard.c
+.\debug\DebugInFlash\keyboard.o: .\driver\stm32lib\inc\stm32f10x_rcc.h
+.\debug\DebugInFlash\keyboard.o: .\startup\stm32f10x.h
+.\debug\DebugInFlash\keyboard.o: .\startup\dtype.h
+.\debug\DebugInFlash\keyboard.o: .\startup\target.h
+.\debug\DebugInFlash\keyboard.o: .\driver\stm32lib\inc\stm32f10x_gpio.h
+.\debug\DebugInFlash\keyboard.o: .\driver\Delay\Delay.h
+.\debug\DebugInFlash\keyboard.o: .\driver\SP_GPIO_Init\SP_GPIO_Init.h
+.\debug\DebugInFlash\keyboard.o: driver\KeyBoard\KeyBoard.h

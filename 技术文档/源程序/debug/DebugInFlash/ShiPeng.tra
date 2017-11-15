@@ -1,0 +1,32 @@
+*** Creating Trace Output File '.\debug\DebugInFlash\ShiPeng.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\debug\debuginflash\startup.o"'
+### List of Objects: adding '".\debug\debuginflash\target.o"'
+### List of Objects: adding '".\debug\debuginflash\stm32f10x_rcc.o"'
+### List of Objects: adding '".\debug\debuginflash\stm32f10x_gpio.o"'
+### List of Objects: adding '".\debug\debuginflash\misc.o"'
+### List of Objects: adding '".\debug\debuginflash\stm32f10x_exti.o"'
+### List of Objects: adding '".\debug\debuginflash\stm32f10x_pwr.o"'
+### List of Objects: adding '".\debug\debuginflash\sp_gpio_init.o"'
+### List of Objects: adding '".\debug\debuginflash\motor.o"'
+### List of Objects: adding '".\debug\debuginflash\delay.o"'
+### List of Objects: adding '".\debug\debuginflash\keyboard.o"'
+### List of Objects: adding '".\debug\debuginflash\interpolation.o"'
+### List of Objects: adding '".\debug\debuginflash\positionconstraint.o"'
+### List of Objects: adding '".\debug\debuginflash\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\debug\debuginflash\startup.o" ".\debug\debuginflash\target.o" ".\debug\debuginflash\stm32f10x_rcc.o" ".\debug\debuginflash\stm32f10x_gpio.o" ".\debug\debuginflash\misc.o" ".\debug\debuginflash\stm32f10x_exti.o" ".\debug\debuginflash\stm32f10x_pwr.o" ".\debug\debuginflash\sp_gpio_init.o" ".\debug\debuginflash\motor.o" ".\debug\debuginflash\delay.o" ".\debug\debuginflash\keyboard.o" ".\debug\debuginflash\interpolation.o" ".\debug\debuginflash\positionconstraint.o" ".\debug\debuginflash\main.o" --strict --scatter ".\debug\DebugInFlash\ShiPeng.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\debug\List\ShiPeng.map" -o ".\debug\DebugInFlash\ShiPeng.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\debug\DebugInFlash\ShiPeng.axf'
+### ADS-LD Command File: '.\debug\DebugInFlash\ShiPeng.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\debug\DebugInFlash\ShiPeng.lnp', Handle=0x000005F8
+### Writing '.lnp' file
+### ADS-LD Command file '.\debug\DebugInFlash\ShiPeng.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

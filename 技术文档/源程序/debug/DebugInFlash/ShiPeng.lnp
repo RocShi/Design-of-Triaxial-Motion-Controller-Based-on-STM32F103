@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\debug\debuginflash\startup.o" ".\debug\debuginflash\target.o" ".\debug\debuginflash\stm32f10x_rcc.o" ".\debug\debuginflash\stm32f10x_gpio.o" ".\debug\debuginflash\misc.o" ".\debug\debuginflash\stm32f10x_exti.o" ".\debug\debuginflash\stm32f10x_pwr.o" ".\debug\debuginflash\sp_gpio_init.o" ".\debug\debuginflash\motor.o" ".\debug\debuginflash\delay.o" ".\debug\debuginflash\keyboard.o" ".\debug\debuginflash\interpolation.o" ".\debug\debuginflash\positionconstraint.o" ".\debug\debuginflash\main.o" --strict --scatter ".\debug\DebugInFlash\ShiPeng.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\debug\List\ShiPeng.map" -o ".\debug\DebugInFlash\ShiPeng.axf"

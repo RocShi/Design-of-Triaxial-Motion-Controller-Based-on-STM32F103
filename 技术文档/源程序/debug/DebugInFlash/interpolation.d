@@ -1,0 +1,11 @@
+.\debug\DebugInFlash\interpolation.o: driver\Interpolation\Interpolation.c
+.\debug\DebugInFlash\interpolation.o: .\driver\stm32lib\inc\stm32f10x_rcc.h
+.\debug\DebugInFlash\interpolation.o: .\startup\stm32f10x.h
+.\debug\DebugInFlash\interpolation.o: .\startup\dtype.h
+.\debug\DebugInFlash\interpolation.o: .\startup\target.h
+.\debug\DebugInFlash\interpolation.o: .\driver\stm32lib\inc\stm32f10x_gpio.h
+.\debug\DebugInFlash\interpolation.o: driver\Interpolation\Interpolation.h
+.\debug\DebugInFlash\interpolation.o: .\driver\SP_GPIO_Init\SP_GPIO_Init.h
+.\debug\DebugInFlash\interpolation.o: .\driver\Motor\Motor.h
+.\debug\DebugInFlash\interpolation.o: .\driver\Delay\Delay.h
+.\debug\DebugInFlash\interpolation.o: .\driver\KeyBoard\KeyBoard.h
